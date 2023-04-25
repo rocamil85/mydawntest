@@ -1,0 +1,8 @@
+/* Color custom properties */
+
+
+.color-copy-accent-1 {
+  --color-foreground: yellow;
+  --color-background: red;
+  --gradient-background: green;
+}
