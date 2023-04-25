@@ -4,5 +4,5 @@
 .color-copy-accent-1 {
   --color-foreground: green;
   --color-background: red;
-  --gradient-background: rgb(140, 233, 23);
+  --gradient-background: rgb(130, 233, 23);
 }
