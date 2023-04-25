@@ -9,7 +9,7 @@
     {%- endif -%}
     <div class="page-width">
       <p class="announcement-bar__message {{ block.settings.text_alignment }} h5">
-        <span>{{ block.settings.text | escape }}</span>
+        <span class="letter_color">{{ block.settings.text | escape }}</span>
         {%- if block.settings.link != blank -%}
         {% render 'icon-arrow' %}
         {%- endif -%}
