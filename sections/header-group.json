@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "ENVÍO GRATIS A PARTIR DE 50€",
+            "text": "ENVÍO GRATIS A PARTIR DE 10€",
             "text_alignment": "center",
             "color_scheme": "accent-1",
             "link": ""
