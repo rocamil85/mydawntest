@@ -46,9 +46,18 @@
                 <!-- header center side  -->
                 <div class="header__content--list">
                     <!-- logo -->
+
+                    {% comment %}
                     <a href="/" class="header__content--list--logo">
                         <img src="./assets/la-marquesa-style.svg" alt="logo" />
                     </a>
+                    {% endcomment %}
+                    <a href="/" class="header__content--list--logo">
+                        <img src="{{ 'la-marquesa-style.svg' | asset_url }}" alt="logo" />
+                    </a>
+
+
+
                     <!-- Links hidden on movile view -->
                     <div class="header__content--list header__content--list--center" id="menu-panel"
                         aria-expanded="false">
